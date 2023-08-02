@@ -1,0 +1,26 @@
+.App{
+min-height: 100vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+align-items: center;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 10px;
+}
+
+
+
+.bg1 {
+    background-image: url("/public/espacio/bg1.jpg");
+}
+.bg2 {
+    background-image: url("/public/espacio/bg2.jpg");
+}
+.bg3 {
+    background-image: url("/public/espacio/bg3.jpg");
+}
+.bg4 {
+    background-image: url("/public/espacio/bg4.jpg");
+}

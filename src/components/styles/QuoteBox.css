@@ -1,0 +1,78 @@
+.quoteBox {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    place-items: center;
+    width: min(100%, 300px);
+    padding: 20px 10px;
+    margin: 0 auto;
+
+}
+.phrase__container{
+    padding: 20px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.555);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    min-width: 300px;
+    border-radius: 1rem;
+}
+
+
+
+    
+
+
+.title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 8rem;
+    text-shadow: 4px 4px 1px rgb(76, 0, 99);
+    margin-bottom: 3rem;    
+    margin-top: 4rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Cormorant Garamond', serif;
+
+    
+}
+
+.footer {
+    color: white;
+}
+
+
+@media (min-width: 758px) {
+    .phrase__container{
+        max-width: 600px;
+    }
+
+    .title {
+        font-size: 70px;
+        margin-bottom: 2rem;
+    }
+}
+@media(max-width: 757px) {
+    .phrase__container {
+        max-width: 600px;
+    }
+
+    .title {
+        font-size: 70px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width: 507px) {
+    .phrase__container {
+        max-width: 500px;
+    }
+
+    .title {
+        font-size: 50px;
+        margin-bottom: 1rem;
+    }
+}
